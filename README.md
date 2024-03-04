@@ -12,6 +12,8 @@ Pseudocódigo: 1 - informe seus dados
 ⦁	Exibir na tela os dados informados.
 5. Fim
 //* 
+
+
 Pseudocódigo: 2 - Soma e Multiplicação de 4 números inteiros.
 1. Início do Programa
 ⦁	  Exibir na tela um formulário para informar 4 números inteiros.
@@ -73,6 +75,8 @@ Pseudocódigo: 4- Coloque um numero e veja seu sucessor e antecessor.
 5. Fim do Programa
 
 //* 
+
+
 Pseudocódigo: 5- Cálculo de Aumento Salarial
 1. Início do Programa
 ⦁	  Exibir na tela um formulário para informar o salário.
@@ -97,6 +101,8 @@ Pseudocódigo: 5- Cálculo de Aumento Salarial
 5. Fim do Programa
 
 //*
+
+
 Pseudocódigo 6 - Conversão de Temperatura Fahrenheit para Graus Celsius:
 
 1. Início
@@ -118,6 +124,9 @@ Pseudocódigo 6 - Conversão de Temperatura Fahrenheit para Graus Celsius:
 
 
 //*
+
+
+
 Pseudocódigo 7- Digite suas últimas 3 notas e saiba sua média
 1. Início
 ⦁	  Exibir na tela campos para inserir três notas.
@@ -135,6 +144,9 @@ Pseudocódigo 7- Digite suas últimas 3 notas e saiba sua média
 5. Fim
 
 //*
+
+
+
 Pseudocódigo 8- Vai viajar ? Saiba quanto vai precisar de combustivel!
 1. Início
 ⦁	  Exibir na tela campos para inserir a distância a percorrer em km e o consumo médio do carro em km por litro.
