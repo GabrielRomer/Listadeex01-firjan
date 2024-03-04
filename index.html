@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lógica de programação - Lista 01</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./javascript.js"></script>
+    <script src="./javascript34.js"></script>
+    <script src="./javascript56.js"></script>
+    <script src="./javascript78.js"></script>
+    <script src="./javascript90.js"></script>
+  </head>
+  <body>
+    <h1>1 - Informe seus dados</h1>
+    <label for="nome">Nome Completo:</label>
+    <input type="text" id="nome" placeholder="Digite seu nome completo" />
+
+    <label for="sexo">Sexo:</label>
+    <input type="text" id="sexo" placeholder="Digite seu sexo" />
+
+    <button onclick="enviarDados()">Enviar</button>
+
+    <div id="resultado1">
+      <p><strong>Dados informados:</strong></p>
+      <p id="dadosNome"></p>
+      <p id="dadosSexo"></p>
+    </div>
+
+    <h1>2 - Soma e Multiplicação de 4 números inteiros</h1>
+
+    <label for="num1">Número 1:</label>
+    <input type="number" id="num1" />
+
+    <label for="num2">Número 2:</label>
+    <input type="number" id="num2" />
+
+    <label for="num3">Número 3:</label>
+    <input type="number" id="num3" />
+
+    <label for="num4">Número 4:</label>
+    <input type="number" id="num4" />
+
+    <button onclick="calculo()">Calcular</button>
+
+    <div id="resultado2">
+      <p><strong>Resultados:</strong></p>
+      <p id="soma"></p>
+      <p id="Multiplicar"></p>
+    </div>
+
+    <h1>3 - Quantos dólares você quer converter para o Real agora?</h1>
+    <input
+      type="number"
+      id="valorEmDolares"
+      placeholder="Digite o valor em dólares"
+    />
+    <button onclick="converterParaReal()">Converter</button>
+    <div id="resultado3"></div>
+
+    <h1>4- Coloque um numero e veja seu sucesso e antecessor</h1>
+
+    <label for="numm">Número:</label>
+    <input type="number" id="numm" placeholder="Digite qualquer número" />
+    <button onclick="calcularSa()">Ver Sucessor e Antecessor</button>
+
+    <div id="resultado4"></div>
+
+    <h1>5- Cálculo de Aumento Salarial</h1>
+    <label for="salario">Salário:</label>
+    <input type="number" id="salario" placeholder="Qual o seu salario hoje?" />
+    <button onclick="calcularSalario()">Calcular Aumento</button>
+    <p id="resultado5"></p>
+
+    <h1>6 - Conversão de Temperatura Fahrenheit para Graus Celsius</h1>
+    <label for="temperatura">Temperatura em Fahrenheit:</label>
+    <input type="number" id="Fahrenheit" />
+    <button onclick="calcularConversao()">Converter para Celsius</button>
+    <p id="resultado6"></p>
+
+    <h1>7- Digite suas últimas 3 notas e saiba sua média</h1>
+    <label for="nota1">Nota 1:</label>
+    <input type="number" id="nota1" />
+    <label for="nota2">Nota 2:</label>
+    <input type="number" id="nota2" />
+    <label for="nota3">Nota 3:</label>
+    <input type="number" id="nota3" />
+    <button onclick="calcularMedia()">Calcular Média</button>
+    <p id="resultado7"></p>
+
+    <h1>8- Vai viajar ? Saiba quanto vai precisar de combustivel!</h1>
+
+    <label for="distancia">Distância a percorrer (em km):</label>
+    <input type="number" id="distancia" />
+
+    <label for="consumoMedio">Consumo médio do carro (km por litro):</label>
+    <input type="number" id="consumoMedio" />
+
+    <button onclick="calcularConsumo()">Calcular</button>
+
+    <p id="resultado8"></p>
+
+    <h1>9 - Quadrado e Raiz Quadrada</h1>
+
+    <label for="numero">Digite um número:</label>
+    <input type="number" id="numero" />
+
+    <button onclick="calcular()">Calcular</button>
+
+    <p id="resultado9"></p>
+
+    <h1>10 - Calculadora de Prestação em Atraso</h1>
+
+    <label for="valor">Valor Original:</label>
+    <input type="number" id="valor" />
+
+    <label for="taxa">Taxa de Atraso (%):</label>
+    <input type="number" id="taxa" />
+
+    <label for="tempo">Tempo em Dias:</label>
+    <input type="number" id="tempo" />
+
+    <button onclick="calcularPrestacao()">Calcular Prestação</button>
+
+    <p id="resultado10"></p>
+  </body>
+</html>
