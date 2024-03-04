@@ -49,6 +49,10 @@ function resultado1(nome, sexo) {
 }
 
 
+
+
+
+
 Pseudocódigo: 2 - Soma e Multiplicação de 4 números inteiros.
 1. Início do Programa
 ⦁	  Exibir na tela um formulário para informar 4 números inteiros.
@@ -93,7 +97,9 @@ html:
       <p id="soma"></p>
       <p id="Multiplicar"></p>
     </div>
+    
 javascript:
+
 function calculo() {
   var num1 = parseInt(document.getElementById("num1").value);
   var num2 = parseInt(document.getElementById("num2").value);
@@ -107,6 +113,12 @@ function calculo() {
   document.getElementById("Multiplicar").innerText =
     "multiplicação: " + multiplicação;
 }
+
+
+
+
+
+
 
 
 Pseudocódigo: 3 - Quantos dólares você quer converter para o Real agora?
@@ -136,7 +148,9 @@ html:
     />
     <button onclick="converterParaReal()">Converter</button>
     <div id="resultado3"></div>
+    
 javascript:
+
 
 function converterParaReal() {
     var valorEmDolares = parseFloat(
@@ -154,6 +168,12 @@ function converterParaReal() {
         "O valor em reais é: R$ " + valorEmReais.toFixed(2);
     }
   }
+
+
+
+
+
+  
 
 Pseudocódigo: 4- Coloque um numero e veja seu sucessor e antecessor.
 
@@ -207,6 +227,10 @@ function calcularSa() {
   }
 
 
+
+
+
+
 Pseudocódigo: 5- Cálculo de Aumento Salarial
 1. Início do Programa
 ⦁	  Exibir na tela um formulário para informar o salário.
@@ -231,6 +255,7 @@ Pseudocódigo: 5- Cálculo de Aumento Salarial
 5. Fim do Programa
 
 html:
+
 <h1>5- Cálculo de Aumento Salarial</h1>
     <label for="salario">Salário:</label>
     <input type="number" id="salario" placeholder="Qual o seu salario hoje?" />
@@ -254,6 +279,10 @@ function calcularSalario() {
         "Por favor, digite um salário válido.";
     }
   }
+
+
+
+
 
 Pseudocódigo 6 - Conversão de Temperatura Fahrenheit para Graus Celsius:
 
@@ -298,6 +327,14 @@ function calcularConversao() {
         "Por favor, digite uma temperatura válida em Fahrenheit.";
     }
   }
+
+
+
+
+
+
+
+  
 Pseudocódigo 7- Digite suas últimas 3 notas e saiba sua média
 1. Início
 ⦁	  Exibir na tela campos para inserir três notas.
@@ -342,6 +379,12 @@ function calcularMedia() {
         "Por favor, digite notas válidas.";
     }
   }
+
+
+
+
+
+  
 Pseudocódigo 8- Vai viajar ? Saiba quanto vai precisar de combustivel!
 1. Início
 ⦁	  Exibir na tela campos para inserir a distância a percorrer em km e o consumo médio do carro em km por litro.
@@ -394,6 +437,13 @@ function calcularConsumo() {
         "Por favor, insira valores válidos.";
     }
   }
+
+
+
+
+
+
+  
 Pseudocódigo 9 - Quadrado e Raiz Quadrada:
 1. Início
 ⦁	  Exibir na tela um campo para inserir um número.
@@ -444,6 +494,13 @@ function calcular() {
         "Por favor, insira um número válido.";
     }
   }
+
+
+
+
+
+
+  
 Pseudocódigo 10 - Calculadora de Prestação em Atraso:
 1. Início
 ⦁	  Exibir na tela campos para inserir o valor original, a taxa de atraso em percentagem e o tempo em dias.
